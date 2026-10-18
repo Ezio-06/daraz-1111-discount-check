@@ -1,0 +1,116 @@
+{
+ "run_id": 3,
+ "started_at": "2026-10-18T13:21:58.268759+00:00",
+ "categories": {
+  "smartphones": {
+   "label": "Smartphones",
+   "group": "tight-margin",
+   "listings": 1200,
+   "share_discounted": 53.9,
+   "median_discount": 5,
+   "share_50_plus": 0.2,
+   "seen": 1200,
+   "in_bands": 2020,
+   "bands_top40_only": 30
+  },
+  "traditional-laptops": {
+   "label": "Laptops",
+   "group": "tight-margin",
+   "listings": 692,
+   "share_discounted": 48.0,
+   "median_discount": 24.0,
+   "share_50_plus": 4.6,
+   "seen": 692,
+   "in_bands": 738,
+   "bands_top40_only": 12
+  },
+  "refrigerators": {
+   "label": "Refrigerators",
+   "group": "tight-margin",
+   "listings": 905,
+   "share_discounted": 44.4,
+   "median_discount": 12.0,
+   "share_50_plus": 0.1,
+   "seen": 905,
+   "in_bands": 992,
+   "bands_top40_only": 9
+  },
+  "smart-watches": {
+   "label": "Smart watches",
+   "group": "discount-heavy",
+   "listings": 1064,
+   "share_discounted": 71.1,
+   "median_discount": 46.0,
+   "share_50_plus": 33.1,
+   "seen": 1064,
+   "in_bands": 3505,
+   "bands_top40_only": 25
+  },
+  "wireless-earbuds": {
+   "label": "Wireless earbuds",
+   "group": "discount-heavy",
+   "listings": 1115,
+   "share_discounted": 62.9,
+   "median_discount": 44,
+   "share_50_plus": 27.6,
+   "seen": 1115,
+   "in_bands": 8189,
+   "bands_top40_only": 28
+  },
+  "small-kitchen-appliances": {
+   "label": "Small kitchen appliances",
+   "group": "discount-heavy",
+   "listings": 1161,
+   "share_discounted": 70.4,
+   "median_discount": 27,
+   "share_50_plus": 8.8,
+   "seen": 1161,
+   "in_bands": 8190,
+   "bands_top40_only": 29
+  },
+  "mens-sneakers": {
+   "label": "Men's sneakers",
+   "group": "discount-heavy",
+   "listings": 1011,
+   "share_discounted": 67.1,
+   "median_discount": 45.0,
+   "share_50_plus": 30.2,
+   "seen": 1011,
+   "in_bands": 1851,
+   "bands_top40_only": 24
+  },
+  "womens-lawn": {
+   "label": "Women's lawn / unstitched",
+   "group": "discount-heavy",
+   "listings": 1077,
+   "share_discounted": 60.4,
+   "median_discount": 40,
+   "share_50_plus": 21.6,
+   "seen": 1077,
+   "in_bands": 8190,
+   "bands_top40_only": 26
+  },
+  "face-mask-&-packs": {
+   "label": "Face masks & packs",
+   "group": "discount-heavy",
+   "listings": 947,
+   "share_discounted": 47.8,
+   "median_discount": 32,
+   "share_50_plus": 11.1,
+   "seen": 947,
+   "in_bands": 1053,
+   "bands_top40_only": 16
+  },
+  "oil-ghee": {
+   "label": "Oil & ghee",
+   "group": "control",
+   "listings": 1119,
+   "share_discounted": 53.4,
+   "median_discount": 25,
+   "share_50_plus": 5.1,
+   "seen": 1119,
+   "in_bands": 2818,
+   "bands_top40_only": 27
+  }
+ }
+}
