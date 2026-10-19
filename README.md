@@ -81,7 +81,7 @@ Three categories are almost complete. The biggest ones are samples. That's fine 
 
 ## Keeping the data honest
 
-**The checks caught a real bug in sweep 1.** Daraz sends some prices with paisa (`"331.1"`). The first parser stripped every non-digit, so Rs 331.1 became Rs 3,311. Nobody spotted it by eye. The band check did: in six face-mask bands, too many listings were priced outside the band they were requested for, and the sweep was flagged `partial`. 133 rows across 9 categories were wrong. The parser was fixed (`to_money`), and because every raw answer is kept, sweep 1 can be rebuilt from its own files with `--reparse`. The charts above use sweep 3, collected after the fix.
+**The checks caught a real bug in sweep 1.** Daraz sends some prices with paisa (`"331.1"`). The first parser stripped every non-digit, so Rs 331.1 became Rs 3,311. Nobody spotted it by eye. The band check did: in six face-mask bands, too many listings were priced outside the band they were requested for, and the sweep was flagged `partial`. 133 rows across 9 categories were wrong. The parser was fixed (`to_money`), and because every raw answer is kept, sweep 1 was rebuilt from its own files with `--reparse`, with nothing downloaded again. After the rebuild all 300 of its bands pass the checks.
 
 Each band answer is checked before it's stored:
 
